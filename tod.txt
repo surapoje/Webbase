@@ -1,0 +1,124 @@
+C:\Users\Computer\AppData\Local\Programs\Python\Python312\python.exe
+
+setx OPENAI_API_KEY "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"
+
+with stylable_container(
+        key="green_button",
+        css_styles="""
+            button{
+                background-color: transparent;
+                color: white;
+                border: 0px;
+            }
+            """,
+    ):
+        st.button("Green button")
+
+# import streamlit as st
+# import streamlit.components.v1 as components
+
+# st.set_page_config(
+#     page_title="Home-Tae-shirt",
+#     page_icon="🧊",
+#     layout="wide",
+#     initial_sidebar_state="expanded"
+#     # menu_items={
+#     #     'Get Help': 'https://www.extremelycoolapp.com/help',
+#     #     'Report a bug': "https://www.extremelycoolapp.com/bug",
+#     #     'About': "# This is a header. This is an *extremely* cool app!"
+#     # }
+# )
+
+# # bootstrap 4 collapse example
+# components.html(
+#     """
+#     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+#     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+#     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+#     <div id="accordion">
+#       <div class="card">
+#         <div class="card-header" id="headingOne">
+#           <h5 class="mb-0">
+#             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+#             Collapsible Group Item #1
+#             </button>
+#           </h5>
+#         </div>
+#         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+#           <div class="card-body">
+#             Collapsible Group Item #1 content
+#           </div>
+#         </div>
+#       </div>
+#       <div class="card">
+#         <div class="card-header" id="headingTwo">
+#           <h5 class="mb-0">
+#             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+#             Collapsible Group Item #2
+#             </button>
+#           </h5>
+#         </div>
+#         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+#           <div class="card-body">
+#             Collapsible Group Item #2 content
+#           </div>
+#         </div>
+#       </div>
+#     </div>
+#     """,
+#     height=600,
+# )
+
+# if st.button("Click me", type="primary"):
+#     st.write("Clicked")
+
+# st.button("Another button!")
+
+# st.markdown(
+#     """
+#     <style>
+#     button[kind="primary"] {
+#         background: none!important;
+#         border: none;
+#         padding: 0!important;
+#         color: black !important;
+#         text-decoration: none;
+#         cursor: pointer;
+#         border: none !important;
+#     }
+#     button[kind="primary"]:hover {
+#         text-decoration: none;
+#         color: black !important;
+#     }
+#     button[kind="primary"]:focus {
+#         outline: none !important;
+#         box-shadow: none !important;
+#         color: black !important;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
+
+# '''
+#     <style>
+#     button[kind="primary"] {
+#         background: none!important;
+#         border: none;
+#         padding: 0!important;
+#         color: black !important;
+#         text-decoration: none;
+#         cursor: pointer;
+#         border: none !important;
+#     }
+#     button[kind="primary"]:hover {
+#         text-decoration: none;
+#         color: black !important;
+#     }
+#     button[kind="primary"]:focus {
+#         outline: none !important;
+#         box-shadow: none !important;
+#         color: black !important;
+#     }
+#     </style>
+# '''
